@@ -267,9 +267,6 @@ function processResult(compilerOptions) {
     emitFiles = emitFilesArray;
     emitFilesArray = null;
   }
-
-
-  console.log('timtian', startTime);
   result.emitFiles = emitFiles;
   if (logDebugData) console.log('Total process result time ' + (Date.now() - startTime));
   return result;
@@ -381,7 +378,7 @@ function createCompilerHost(options, sourceFiles) {
     getNewLine: function () {
       return sys.newLine;
     },
-    //ts 1.6 method name
+    //timtian:ts 1.6 method name
     fileExists: function (fileName) { return sys.fileExists(fileName); },
     readFile: function (fileName) { return sys.readFile(fileName); }
   };
