@@ -15,5 +15,5 @@ OR
 
 >Total process result time NaN
 
-you can download ts-compiler-host-impl_1.6.fixed.js file to overwrite 
+you can download [ts-compiler-host-impl-1.6.fix.js](http://example.com/) file to overwrite 
 JetBrains\WebStorm 10.0.4\plugins\JavaScriptLanguage\typescriptCompiler\ts-compiler-host-impl.js
